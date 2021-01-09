@@ -19,4 +19,8 @@ may not use the same element twice.
 Example: Given nums = 2, 7, 11, 15, target = 9, 
 Because nums0 + nums1 = 2 + 7 = 9, return 0, 1.
 
-## Problem 5. 
+## Problem 5. Input function and string/integer conversion.  
+1) Prompt "Input a integer please" and let user input an integer.
+2) Convert the input to an interger and assign it to a variable of number. 
+3) Print out the number of digits that (number + 99) has.
+
