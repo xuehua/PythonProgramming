@@ -9,8 +9,19 @@ Assign two variables a, b with values 0, 1. Then swap the values of these
 two variables and print out their values.
 
 ## Problem 3. Lambda function, list, class and sort function.
-Use lambda function to sort a list of objects.  Create a list of actors using the 
-above Actor class and then sort the list using first name and last name respectively.
+1) Create a list of actors using the below Actor class 
+2) Sort the list using first name and last name respectively.
+Hints: Use lamba functions as keys of sort function to sort the actor list 
+based on first name and last name respectively.
+
+    class Actor: 
+        def __init__(self, first_name, last_name):
+            self.first_name = first_name
+            self.last_name = last_name 
+
+        def __str__(self):
+            return f"{self.first_name} {self.last_name}"
+
 
 ## Problem 4. Dictionary usage. 
 Given an array of integers, return indices of the two numbers such that they add up to a 
