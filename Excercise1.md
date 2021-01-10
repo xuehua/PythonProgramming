@@ -35,7 +35,7 @@ Because nums0 + nums1 = 2 + 7 = 9, return 0, 1.
 2) Convert the input to an interger and assign it to a variable of number. 
 3) Print out the number of digits that (number + 99) has.
 
-## Problem 6. Input function, if/else statement, logical operator
+## Problem 6. Input function, if/elif/else statement, logical operator
 1) Prompt "Input an hour of a day" and let user input an interger.
 2) Convert the hour to am and pm based on the following rules
 a. If hour > 23 or hour < 0  print "Invalid hour"
