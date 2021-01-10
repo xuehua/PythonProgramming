@@ -1,3 +1,4 @@
+
 list  = ["hello", 'test', "java", "bingo"]
 
 
@@ -81,16 +82,13 @@ class Actor:
 
     def __str__(self):
         return f"{self.first_name} {self.last_name}"
+
+    def __len__(self):
+        return len(f"{self.first_name} {self.last_name}")
   
 actor1 = Actor("Tom", "Cruise")    
 print(actor1)
+print(len(actor1))
 
-# lambda problem using list, class and sort function.
-# using lambda function to sort a list of objects.  Create a list of actors using the 
-# above Actor class and then sort the list using first name and last name respectively.
-
-# dictionary problem. 
-#Given an array of integers, return indices of the two numbers such that they add up to a #specific target. You may assume that each input would have exactly one solution, and you #may not use the same element twice.
-#Example: Given nums = 2, 7, 11, 15, target = 9,
-#Because nums0 + nums1 = 2 + 7 = 9, return 0, 1.
-
+a = 123_456
+print(f"a is of type {type(a)}, its value is {a}")
