@@ -90,6 +90,15 @@ actor1 = Actor("Tom", "Cruise")
 print(actor1)
 print(len(actor1))
 
+# integer type
 a = 123_456
 print(f"a is of type {type(a)}, its value is {a}")
 
+# devide operation
+print(f"{6/2} {6//2}")
+
+# power operation
+print(2**3)
+
+A = 1
+print(1<=A<3)
