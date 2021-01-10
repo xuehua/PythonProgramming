@@ -92,3 +92,4 @@ print(len(actor1))
 
 a = 123_456
 print(f"a is of type {type(a)}, its value is {a}")
+
