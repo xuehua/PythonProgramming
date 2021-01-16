@@ -1,7 +1,3 @@
-
-list  = ["hello", 'test', "java", "bingo"]
-
-
 # usage of quotation marks
 # print("hello")
 print('print("hello")')
@@ -11,8 +7,10 @@ city = "Rome"
 number = 4
 print(f"{city} hello {number}")
 
+# create an list
+list  = ["hello", 'test', "java", "bingo"]
 
-# list index
+# list index usage.
 print(list[0])
 print(list[0:])   # 0<=index
 print(list[:1])   # 0<=index<1
