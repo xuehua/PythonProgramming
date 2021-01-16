@@ -62,3 +62,17 @@ res2 = [[0]*M for i in range(N)]
 res2[1][1] = 1
 print("res2:", res2)
 
+
+# -(n//2) != -n//2
+print(f"-(3//2): {-(3//2)}")
+print(f"-3//2 : {-3//2}")
+print(f"(-3)//2: {(-3)//2}")
+
+# flatten a matrix
+A = [[0,1,2],[3,4,5],[6,7,8]]
+lst = [x for row in A for x in row ]
+print(lst)
+
+
+
+
