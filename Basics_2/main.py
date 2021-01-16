@@ -45,3 +45,20 @@ class Actor:
 actor = Actor("Tom", "Hanks")
 print (actor.full_name)
 
+# Initialize a matrix using * operator
+# bad example in https://www.geeksforgeeks.org/initialize-matrix-in-python/
+N=5
+M=4
+res0 = [ [0 for i in range(M)]] * N 
+res1 = [[0] * M] * N 
+
+res0[1][1] = 1
+res1[1][1] = 1
+print("res0:", res0)
+print("res1:", res1)
+
+# Correct way to do it 
+res2 = [[0]*M for i in range(N)]
+res2[1][1] = 1
+print("res2:", res2)
+
