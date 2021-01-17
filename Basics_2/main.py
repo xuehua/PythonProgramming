@@ -72,7 +72,3 @@ print(f"(-3)//2: {(-3)//2}")
 A = [[0,1,2],[3,4,5],[6,7,8]]
 lst = [x for row in A for x in row ]
 print(lst)
-
-
-
-
