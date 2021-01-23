@@ -79,7 +79,10 @@ def solution6():
     for i in range(2):
         password_lst.append(random.choice(lst))
 
+    # Random permutation. We can use random.shuffleor use the famous Fisher-Yates shuffles 
+    # mentioned in https://en.wikipedia.org/wiki/Random_permutation
     random.shuffle(password_lst)
+
     password = ''.join(password_lst)
     print("=== Result for problem 6: ===")
     print(f"{password}")
