@@ -83,7 +83,7 @@ def solution6():
     password = ''.join(password_lst)
     print("=== Result for problem 6: ===")
     print(f"{password}")
-.
+
 def main():
     solution1()
     solution2()
