@@ -1,5 +1,4 @@
 import random
-from types import prepare_class
 
 def solution1():
     input_words = ["eat", "tea", "tan", "ate", "nat", "bat"]
