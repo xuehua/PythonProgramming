@@ -9,6 +9,7 @@ new_list = old_list
 old_list[2][2] = 9
 print(old_list, new_list)
 print(id(old_list), id(new_list))
+print(old_list is new_list)  # is operator check whether both variables are pointing to one object.
 
 # Shallow copy
 old_list = [[1, 2, 3], [4, 5, 6], [7, 8, 'a']]
@@ -19,6 +20,7 @@ old_list[2][2] = 9
 print(old_list, new_list)
 print(id(old_list), id(old_list[2]))
 print(id(new_list), id(new_list[2]))
+print(old_list is new_list)  # is operator check whether both variables are pointing to one object.
 
 #Deep copy
 old_list = [[1, 2, 3], [4, 5, 6], [7, 8, 'a']]
